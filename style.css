@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основная разметка */
+.flex-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    flex-basis: 10%;
+}
+
+main {
+    flex-basis: 1;
+}
+
+footer {
+    flex-basis: 20%;
+}
+
+.main-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Позиционирование элементов */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flower1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.flower2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.tree1 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.tree2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.tree3 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.medicinal1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.medicinal2 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.medicinal3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+/* Размеры */
+.main-box1 {
+    width: 1440px;
+    height: 761px;
+}
+
+.main-box2 {
+    width: 1440px;
+    height: 761px;
+}
+
+.main-box3 {
+    width: 1440px;
+    height: 761px;
+}
+
+img {
+    width: 440px;
+    height: 290px;
+}
+
+#tree1 {
+    width: 480px;
+    height: 590px;
+}
+
+#tree3 {
+    width: 480px;
+    height: 590px;
+}
+
+#medicinal2 {
+    width: 480px;
+    height: 590px;
+}
+
+/* Топография */
+h1 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-box {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Оформление */
+header {
+    background-image: url(./assets/images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-box1 {
+    background-color: #cdd0c6;
+}
+
+.main-box2 {
+    background-color: #cdd0c6;
+}
+
+.main-box3 {
+    background-color: #cdd0c6;
+}
+
+/* Эффект увеличения */
+.hover {
+    transition: 1s;
+}
+
+.hover:hover {
+transform: scale(1.5);
+}
+
+.tree1 {
+    transition: 1s;
+}
+
+.tree1:hover {
+    transform: scale(1.5);
+    }
+
+.tree3 {
+    transition: 1s;
+}
+
+.tree3:hover {
+    transform: scale(1.5);
+    }
+
+.medicinal2 {
+    transition: 1s;
+}
+
+.medicinal2:hover {
+    transform: scale(1.5);
+    }
+
+
+
+
+
+
